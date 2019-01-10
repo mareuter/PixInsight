@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2019-01-10T03:59:51.952Z
+PixInsight Core 01.08.05.1352 (x64)
+Copyright (c) 2003-2017 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="Crop" id="DSLRCrop_instance">
+      <parameter id="leftMargin" value="-9"/>
+      <parameter id="topMargin" value="-4"/>
+      <parameter id="rightMargin" value="-9"/>
+      <parameter id="bottomMargin" value="-5"/>
+      <parameter id="mode" value="AbsolutePixels"/>
+      <parameter id="xResolution" value="72.000"/>
+      <parameter id="yResolution" value="72.000"/>
+      <parameter id="metric" value="false"/>
+      <parameter id="forceResolution" value="false"/>
+      <parameter id="red" value="0.000000"/>
+      <parameter id="green" value="0.000000"/>
+      <parameter id="blue" value="0.000000"/>
+      <parameter id="alpha" value="1.000000"/>
+      <parameter id="noGUIMessages" value="false"/>
+   </instance>
+   <icon id="DSLRCrop" instance="DSLRCrop_instance" xpos="320" ypos="849" workspace="Workspace01"/>
+</xpsm>
