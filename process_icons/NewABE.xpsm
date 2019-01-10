@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2019-01-09T02:19:34.476Z
+PixInsight Core 01.08.05.1352 (x64)
+Copyright (c) 2003-2017 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="AutomaticBackgroundExtractor" id="NewABE_instance">
+      <parameter id="tolerance" value="1.000"/>
+      <parameter id="deviation" value="0.800"/>
+      <parameter id="unbalance" value="1.800"/>
+      <parameter id="minBoxFraction" value="0.050"/>
+      <parameter id="maxBackground" value="1.0000"/>
+      <parameter id="minBackground" value="0.0000"/>
+      <parameter id="useBrightnessLimits" value="true"/>
+      <parameter id="polyDegree" value="2"/>
+      <parameter id="boxSize" value="5"/>
+      <parameter id="boxSeparation" value="15"/>
+      <parameter id="modelImageSampleFormat" value="f32"/>
+      <parameter id="abeDownsample" value="2.00"/>
+      <parameter id="writeSampleBoxes" value="false"/>
+      <parameter id="justTrySamples" value="false"/>
+      <parameter id="targetCorrection" value="Subtract"/>
+      <parameter id="normalize" value="false"/>
+      <parameter id="discardModel" value="false"/>
+      <parameter id="replaceTarget" value="false"/>
+      <parameter id="correctedImageId"></parameter>
+      <parameter id="correctedImageSampleFormat" value="SameAsTarget"/>
+      <parameter id="verboseCoefficients" value="false"/>
+      <parameter id="compareModel" value="false"/>
+      <parameter id="compareFactor" value="10.00"/>
+   </instance>
+   <icon id="NewABE" instance="NewABE_instance" xpos="222" ypos="892" workspace="Workspace01"/>
+</xpsm>
