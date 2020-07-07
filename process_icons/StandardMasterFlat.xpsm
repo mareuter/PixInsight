@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2020-07-07T01:41:08.402Z
+PixInsight Core 1.8.8-5 (x64)
+Copyright (c) 2003-2020 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="ImageIntegration" id="StandardMasterFlat_instance">
+      <description>Standard settings for making a master flat. Taken from page 26 of Inside PixInsight 2nd Ed. by  Warren A. Keller. NOTE: Always check Rejection Algorithm in Pixel Rejection (1) section for the appropriate algorithm based on the number of frames.</description>
+      <table id="images" rows="0"/>
+      <parameter id="inputHints"></parameter>
+      <parameter id="combination" value="Average"/>
+      <parameter id="weightMode" value="DontCare"/>
+      <parameter id="weightKeyword"></parameter>
+      <parameter id="weightScale" value="WeightScale_IKSS"/>
+      <parameter id="ignoreNoiseKeywords" value="false"/>
+      <parameter id="normalization" value="Multiplicative"/>
+      <parameter id="rejection" value="WinsorizedSigmaClip"/>
+      <parameter id="rejectionNormalization" value="EqualizeFluxes"/>
+      <parameter id="minMaxLow" value="1"/>
+      <parameter id="minMaxHigh" value="1"/>
+      <parameter id="pcClipLow" value="0.200"/>
+      <parameter id="pcClipHigh" value="0.100"/>
+      <parameter id="sigmaLow" value="4.000"/>
+      <parameter id="sigmaHigh" value="3.000"/>
+      <parameter id="winsorizationCutoff" value="5.000"/>
+      <parameter id="linearFitLow" value="5.000"/>
+      <parameter id="linearFitHigh" value="4.000"/>
+      <parameter id="esdOutliersFraction" value="0.30"/>
+      <parameter id="esdAlpha" value="0.05"/>
+      <parameter id="esdLowRelaxation" value="1.50"/>
+      <parameter id="ccdGain" value="1.00"/>
+      <parameter id="ccdReadNoise" value="10.00"/>
+      <parameter id="ccdScaleNoise" value="0.00"/>
+      <parameter id="clipLow" value="true"/>
+      <parameter id="clipHigh" value="true"/>
+      <parameter id="rangeClipLow" value="true"/>
+      <parameter id="rangeLow" value="0.000000"/>
+      <parameter id="rangeClipHigh" value="false"/>
+      <parameter id="rangeHigh" value="0.980000"/>
+      <parameter id="mapRangeRejection" value="true"/>
+      <parameter id="reportRangeRejection" value="false"/>
+      <parameter id="largeScaleClipLow" value="false"/>
+      <parameter id="largeScaleClipLowProtectedLayers" value="2"/>
+      <parameter id="largeScaleClipLowGrowth" value="2"/>
+      <parameter id="largeScaleClipHigh" value="false"/>
+      <parameter id="largeScaleClipHighProtectedLayers" value="2"/>
+      <parameter id="largeScaleClipHighGrowth" value="2"/>
+      <parameter id="generate64BitResult" value="false"/>
+      <parameter id="generateRejectionMaps" value="false"/>
+      <parameter id="generateIntegratedImage" value="true"/>
+      <parameter id="generateDrizzleData" value="false"/>
+      <parameter id="closePreviousImages" value="false"/>
+      <parameter id="bufferSizeMB" value="16"/>
+      <parameter id="stackSizeMB" value="1024"/>
+      <parameter id="autoMemorySize" value="true"/>
+      <parameter id="autoMemoryLimit" value="0.75"/>
+      <parameter id="useROI" value="false"/>
+      <parameter id="roiX0" value="0"/>
+      <parameter id="roiY0" value="0"/>
+      <parameter id="roiX1" value="0"/>
+      <parameter id="roiY1" value="0"/>
+      <parameter id="useCache" value="true"/>
+      <parameter id="evaluateNoise" value="false"/>
+      <parameter id="mrsMinDataFraction" value="0.010"/>
+      <parameter id="subtractPedestals" value="true"/>
+      <parameter id="truncateOnOutOfRange" value="false"/>
+      <parameter id="noGUIMessages" value="true"/>
+      <parameter id="useFileThreads" value="true"/>
+      <parameter id="fileThreadOverload" value="1.00"/>
+      <parameter id="integrationImageId"></parameter>
+      <parameter id="lowRejectionMapImageId"></parameter>
+      <parameter id="highRejectionMapImageId"></parameter>
+      <parameter id="slopeMapImageId"></parameter>
+      <parameter id="numberOfChannels" value="0"/>
+      <parameter id="numberOfPixels" value="0"/>
+      <parameter id="totalPixels" value="0"/>
+      <parameter id="outputRangeLow" value="0"/>
+      <parameter id="outputRangeHigh" value="0"/>
+      <parameter id="totalRejectedLowRK" value="0"/>
+      <parameter id="totalRejectedLowG" value="0"/>
+      <parameter id="totalRejectedLowB" value="0"/>
+      <parameter id="totalRejectedHighRK" value="0"/>
+      <parameter id="totalRejectedHighG" value="0"/>
+      <parameter id="totalRejectedHighB" value="0"/>
+      <parameter id="finalNoiseEstimateRK" value="0.000e+00"/>
+      <parameter id="finalNoiseEstimateG" value="0.000e+00"/>
+      <parameter id="finalNoiseEstimateB" value="0.000e+00"/>
+      <parameter id="finalScaleEstimateRK" value="0.000e+00"/>
+      <parameter id="finalScaleEstimateG" value="0.000e+00"/>
+      <parameter id="finalScaleEstimateB" value="0.000e+00"/>
+      <parameter id="finalLocationEstimateRK" value="0.000e+00"/>
+      <parameter id="finalLocationEstimateG" value="0.000e+00"/>
+      <parameter id="finalLocationEstimateB" value="0.000e+00"/>
+      <parameter id="referenceNoiseReductionRK" value="0.0000"/>
+      <parameter id="referenceNoiseReductionG" value="0.0000"/>
+      <parameter id="referenceNoiseReductionB" value="0.0000"/>
+      <parameter id="medianNoiseReductionRK" value="0.0000"/>
+      <parameter id="medianNoiseReductionG" value="0.0000"/>
+      <parameter id="medianNoiseReductionB" value="0.0000"/>
+      <parameter id="referenceSNRIncrementRK" value="0.0000"/>
+      <parameter id="referenceSNRIncrementG" value="0.0000"/>
+      <parameter id="referenceSNRIncrementB" value="0.0000"/>
+      <parameter id="averageSNRIncrementRK" value="0.0000"/>
+      <parameter id="averageSNRIncrementG" value="0.0000"/>
+      <parameter id="averageSNRIncrementB" value="0.0000"/>
+      <table id="imageData" rows="0"/>
+   </instance>
+   <icon id="StandardMasterFlat" instance="StandardMasterFlat_instance" xpos="13" ypos="852" workspace="Workspace01"/>
+</xpsm>

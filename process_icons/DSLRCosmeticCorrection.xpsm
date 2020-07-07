@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2020-07-07T01:40:45.771Z
+PixInsight Core 1.8.8-5 (x64)
+Copyright (c) 2003-2020 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="CosmeticCorrection" id="DSLRCosmeticCorrection_instance">
+      <description>Preliminary settings for cosmetic correcting DSLR calibrated light frames. Taken from Chapter 3 of Inside PixInsight 2nd Ed. by Warren A. Keller.</description>
+      <table id="targetFrames" rows="0"/>
+      <parameter id="masterDarkPath"></parameter>
+      <parameter id="outputDir"></parameter>
+      <parameter id="outputExtension">.xisf</parameter>
+      <parameter id="prefix"></parameter>
+      <parameter id="postfix">_cc</parameter>
+      <parameter id="overwrite" value="false"/>
+      <parameter id="amount" value="1.00"/>
+      <parameter id="cfa" value="true"/>
+      <parameter id="useMasterDark" value="true"/>
+      <parameter id="hotDarkCheck" value="false"/>
+      <parameter id="hotDarkLevel" value="1.0000000"/>
+      <parameter id="coldDarkCheck" value="false"/>
+      <parameter id="coldDarkLevel" value="0.0000000"/>
+      <parameter id="useAutoDetect" value="false"/>
+      <parameter id="hotAutoCheck" value="false"/>
+      <parameter id="hotAutoValue" value="3.0"/>
+      <parameter id="coldAutoCheck" value="false"/>
+      <parameter id="coldAutoValue" value="3.0"/>
+      <parameter id="useDefectList" value="false"/>
+      <table id="defects" rows="0"/>
+   </instance>
+   <icon id="DSLRCosmeticCorrection" instance="DSLRCosmeticCorrection_instance" xpos="11" ypos="779" workspace="Workspace01"/>
+</xpsm>

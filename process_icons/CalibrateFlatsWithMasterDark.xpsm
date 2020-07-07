@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2020-07-07T01:41:21.006Z
+PixInsight Core 1.8.8-5 (x64)
+Copyright (c) 2003-2020 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="ImageCalibration" id="CalibrateFlatsWithMasterDark_instance">
+      <description>Calibration of flat frames using a master dark. Taken from page 24 of Inside PixInsight 2nd Ed. by  Warren A. Keller.</description>
+      <table id="targetFrames" rows="0"/>
+      <parameter id="inputHints"></parameter>
+      <parameter id="outputHints"></parameter>
+      <parameter id="pedestal" value="0"/>
+      <parameter id="pedestalMode" value="Keyword"/>
+      <parameter id="pedestalKeyword"></parameter>
+      <parameter id="overscanEnabled" value="false"/>
+      <parameter id="overscanImageX0" value="0"/>
+      <parameter id="overscanImageY0" value="0"/>
+      <parameter id="overscanImageX1" value="0"/>
+      <parameter id="overscanImageY1" value="0"/>
+      <table id="overscanRegions" rows="4">
+         <tr>
+            <td id="enabled" value="false"/>
+            <td id="sourceX0" value="0"/>
+            <td id="sourceY0" value="0"/>
+            <td id="sourceX1" value="0"/>
+            <td id="sourceY1" value="0"/>
+            <td id="targetX0" value="0"/>
+            <td id="targetY0" value="0"/>
+            <td id="targetX1" value="0"/>
+            <td id="targetY1" value="0"/>
+         </tr>
+         <tr>
+            <td id="enabled" value="false"/>
+            <td id="sourceX0" value="0"/>
+            <td id="sourceY0" value="0"/>
+            <td id="sourceX1" value="0"/>
+            <td id="sourceY1" value="0"/>
+            <td id="targetX0" value="0"/>
+            <td id="targetY0" value="0"/>
+            <td id="targetX1" value="0"/>
+            <td id="targetY1" value="0"/>
+         </tr>
+         <tr>
+            <td id="enabled" value="false"/>
+            <td id="sourceX0" value="0"/>
+            <td id="sourceY0" value="0"/>
+            <td id="sourceX1" value="0"/>
+            <td id="sourceY1" value="0"/>
+            <td id="targetX0" value="0"/>
+            <td id="targetY0" value="0"/>
+            <td id="targetX1" value="0"/>
+            <td id="targetY1" value="0"/>
+         </tr>
+         <tr>
+            <td id="enabled" value="false"/>
+            <td id="sourceX0" value="0"/>
+            <td id="sourceY0" value="0"/>
+            <td id="sourceX1" value="0"/>
+            <td id="sourceY1" value="0"/>
+            <td id="targetX0" value="0"/>
+            <td id="targetY0" value="0"/>
+            <td id="targetX1" value="0"/>
+            <td id="targetY1" value="0"/>
+         </tr>
+      </table>
+      <parameter id="masterBiasEnabled" value="true"/>
+      <parameter id="masterBiasPath"></parameter>
+      <parameter id="masterDarkEnabled" value="true"/>
+      <parameter id="masterDarkPath"></parameter>
+      <parameter id="masterFlatEnabled" value="false"/>
+      <parameter id="masterFlatPath"></parameter>
+      <parameter id="calibrateBias" value="false"/>
+      <parameter id="calibrateDark" value="true"/>
+      <parameter id="calibrateFlat" value="false"/>
+      <parameter id="optimizeDarks" value="true"/>
+      <parameter id="darkOptimizationThreshold" value="0.00000"/>
+      <parameter id="darkOptimizationLow" value="3.0000"/>
+      <parameter id="darkOptimizationWindow" value="1024"/>
+      <parameter id="darkCFADetectionMode" value="DetectCFA"/>
+      <parameter id="evaluateNoise" value="true"/>
+      <parameter id="noiseEvaluationAlgorithm" value="NoiseEvaluation_MRS"/>
+      <parameter id="outputDirectory"></parameter>
+      <parameter id="outputExtension">.xisf</parameter>
+      <parameter id="outputPrefix"></parameter>
+      <parameter id="outputPostfix">_c</parameter>
+      <parameter id="outputSampleFormat" value="f32"/>
+      <parameter id="outputPedestal" value="0"/>
+      <parameter id="overwriteExistingFiles" value="false"/>
+      <parameter id="onError" value="Continue"/>
+      <parameter id="noGUIMessages" value="true"/>
+      <table id="outputData" rows="0"/>
+   </instance>
+   <icon id="CalibrateFlatsWithMasterDark" instance="CalibrateFlatsWithMasterDark_instance" xpos="164" ypos="852" workspace="Workspace01"/>
+</xpsm>
